@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="cs-home.css"/>
+
+</head>
+<body>
+      <div class="banner">
+        <header class="header" >
+        <div class="right-section">
+       <img class="ug-logo" src="images/comScience_logo (1).png" alt="cs logo">
+        </div>
+
+          
+        <nav class="navigate">
+            <button class="home">
+              <a href="cs-website.html" target="_blank"> home</a>
+            </button>
+            <button class="About">
+              <a href="About.html" target="_blank">About</a>
+            </button>
+            <button class="faculty">
+               <a href="faculty.html" target="_blank">Faculty</a>
+            </button> 
+            <button class="research">
+                <a href="research.html"target="blank">Reseach group</a>
+            </button>
+            <button class="study">
+               <a href="study.html" target="_blank">Study</a>
+            </button> 
+            
+        </nav>  
+        </header>
+        <main>
+            <div class="top">
+            <img class="image1" src="images\about.jpg" alt="about">
+            </div>
+            <div
+                 class="about1">
+                <h1 class="about-text">ABOUT US</h1>
+             <p class="about2">University of Ghana is a research-intensive modern university with a global reputation for academic excellence. The university holds awards for higher academic excellence.The University of Ghana is one of the Africa's most preeminent public universities. Our impact on individuals, our region and the world is profound. whether we are launching young people into a boundless future or confronting the grand challenges of our time through dauntless research. UG educates more than 38,000students annually, with approximately 2.64% being computer science students. We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.</p>
+            </div>
+            <div class="slideshow-container">
+               
+                <div class="mySlides">
+                    <img src="images\winner.png" style="width:100%">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="images\about2 copyy.jpg" style="width:100%">
+                </div>
+        
+                <div class="mySlides">
+                    <img src="images\lecture hall" style="width:100%">
+                </div>
+        
+               
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        
+            <script>
+              
+                var slideIndex = 0;
+                showSlides();
+        
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+        
+                    slideIndex++;
+                    
+                    if (slideIndex > slides.length) {
+                        slideIndex = 1;
+                    }
+        
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+        
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    
+                    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+                }
+            </script>
+            
+
+        </main>
+        <footer class="footer">
+            <div class="foot">
+            <h4> ACADEMICS</h4>
+            <ul>
+                <li>Undergraduate Courses</li>
+                <li>Graduate Courses(MPhil Computer Science)</li> 
+                <li>Graduate Courses(MSc Computer Science)</li>    
+                <li>Graduate Courses(PhD)</li>    
+                <li> Academic Calendar</li>    
+                <li>Level 200 & 300 Timetable<li>    
+                <li>Placements For Level 200 Students</li>    
+                <li>Student Complaint Form</li>
+            </ul>
+            </div>
+
+            <div class="foot">
+
+            <h4>Research </h4>
+            <ul>
+                <li> Research at DCS</li>
+                <li> Research Impact</li>
+                <li> Libraries</li>
+            </ul>
+        
+            </div>
+
+            <div class="foot">
+            <h4>Admissions </h4>
+            <ul>
+                <li> Undergraduate</li>
+                <li>   Graduate</li>
+                <li>    International Students</li>
+                <li>   Entry Requirements</li>
+                <li>    Contact Us</li>
+                    
+            </ul>
+             </div>
+
+             <div class="foot">
+
+            <h4> About The Department</h4>
+            <ul>
+              <li> Introducing DCS</li> 
+              <li> Head of Department's office</li> 
+              <li> Faculty</li> 
+              <li> Events  </li> 
+            </ul>
+            </div>
+            
+            <div class="foot">
+            <h4> Contact Us</h4>
+            <h4> Phone & Email</h4>
+            <li> +233 501 382 035</li>
+            <li>+233 559 145 698</li>
+            <li>dcs@ug.edu.gh</li>
+            </ul>
+            </div>
+
+            <div class="foot">
+            <h4> Location</h4>
+            <ul>
+                <li>University Of Ghana, Legon Campus</li>
+                <li>Opposite Mathematics Department</li>
+                <li> Copyright ©2023 All rights reserved</li>     
+            </ul>
+            </div>
+
+        </footer>
+    </div>  
+
+
+
+</body>
+</html>

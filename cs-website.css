@@ -44,19 +44,54 @@
 
 }
 
-
+.home{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+}
+.About{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+}
+.faculty{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+}
+.research{
+    margin-right:30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+}
+.study{
+    margin-right:30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+}
 .register-button{
     background-color: rgb(218, 126, 126);
     padding: 20px;
-    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 20px;
+    color:white;
     border: none;
     cursor: pointer;
     display: inline-block;
     align-items: center;
     justify-content: center;
-
+    margin-left: 1300px;
+    font-size: 30px;
+    
 
 }
+
 .register-button:hover{
     text-decoration: underline;
     background-color: rgb(150, 150, 240);

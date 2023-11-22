@@ -1,0 +1,45 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align:top right;
+    padding: 20px;
+    background-color: whitesmoke;
+
+
+}
+
+.home{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .About{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .faculty{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .research{
+    margin-right:30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .study{
+    margin-right:30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .ug-logo{
+    width: 300px;
+    height: auto;
