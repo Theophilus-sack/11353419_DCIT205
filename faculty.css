@@ -43,3 +43,70 @@
   .ug-logo{
     width: 300px;
     height: auto;
+  }
+
+  section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.faculty-card {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.foot {
+  margin-bottom: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.foot h4 {
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+}
+
+.foot li {
+  margin-bottom: 8px;
+}
+
+.foot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.foot a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .foot {
+      width: 100%;
+      margin-top: 0%;
+  }
+}
