@@ -8,6 +8,42 @@
 
 
 }
+.resh
+
+.reshh{
+ 
+  
+}
+
+.resh-pic{
+  width: 1599px; 
+  height: 750px; 
+  margin-top: 20px;
+  object-fit: cover;
+  opacity:0.9;
+}
+.mob{
+  margin-bottom: 10px;
+  display: inline-block;
+
+}
+.dis{
+  
+  font-size: 29px;
+
+}
+.un{
+  font-size: 29px;
+  
+}
+.bid{
+  
+  font-size: 29px;
+}
+.ug{
+  text-align: left;
+  padding: 20px;
+}
 
 .home{
   margin-right: 30px;
@@ -21,6 +57,7 @@
   font-size: 15px;
   border-radius: 9px;
 }
+
 .faculty{
   margin-right: 30px;
   padding: 15px;
@@ -43,3 +80,99 @@
     width: 300px;
     height: auto;
       }
+      .background-rectangle {
+        background-color: #14213D; 
+        color: #ffd75f; 
+        padding: 20px; 
+        width: 280px; 
+        height: 350px;
+        margin-left: 1080px; margin-top: -150px;
+        margin-bottom: 100px;
+        border-radius: 10px; 
+    }
+    
+    h4 {
+        font-size: 24px; 
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .fut{
+      font-size: 40px;
+    }
+    .p3 {
+        font-size: 20px; 
+        line-height: 1.5;
+        text-align: center;
+        display: inline-block;
+        padding-top: 50px;}
+        .apply-here-link {
+                display: block;
+                text-align: center;
+                padding: 40px; 
+                border: 2px solid #3498db;
+                text-decoration: none;
+                color: #3498db;
+                transition: background-color 0.3s ease-in-out;
+                margin-top: 50px;
+                
+            }
+            .apply-here-link:hover {
+                background-color: #3498db;
+                color: #fff;
+             } 
+        
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.foot {
+    margin-bottom: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.foot h4 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.foot ul {
+    list-style: none;
+    padding: 0;
+}
+
+.foot li {
+    margin-bottom: 8px;
+}
+
+.foot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot {
+        width: 100%;
+        margin-top: 0%;
+    }
+}
+
+  
+ 
+  

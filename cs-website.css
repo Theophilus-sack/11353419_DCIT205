@@ -99,7 +99,6 @@
     display: block;
 }
 
-
   .ug-logo{
 width: 300px;
 height: auto;
@@ -108,12 +107,8 @@ height: auto;
     color: white;
   }
 
-
-    .text1{
-       
-        font-size:20px;
-  
-        
+    .text1{ 
+        font-size:20px; 
     }
     .text2{
        

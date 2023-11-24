@@ -54,14 +54,14 @@
 
   .library-text {
     position: absolute;
-    bottom: 220px;
+    bottom: 250px;
     left: 40px;
     font-size: 48px;
     color: whitesmoke;
   }
   .lib2{
     position: absolute;
-    bottom: 150px;
+    bottom: 190px;
     left: 40px;
     font-size: 40px;
     color: whitesmoke;

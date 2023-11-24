@@ -60,6 +60,9 @@ h2 {
     margin-bottom: 20px;
     border-radius: 5px;
 }
+.dept{
+  font-size: 19px;
+}
 .footer {
   background-color: #333;
   color: #fff;
@@ -109,4 +112,9 @@ h2 {
       width: 100%;
       margin-top: 0%;
   }
+}
+.facultymembers{
+  text-align: center;
+  color: rgb(56, 56, 143);
+  font-size: 40px;
 }
