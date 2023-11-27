@@ -1,0 +1,193 @@
+.img{
+   width: 650px; 
+   height: 570px;
+   margin-top: 20px;
+   opacity: 0.76;
+   
+}
+.udg{
+    display: inline-block;
+}
+
+.text1 {
+    display: inline-block;
+    border: none;
+}
+.text2{
+    display: inline-block;
+    border: none;
+    width: 800px;
+    vertical-align:top;
+    
+}
+.text4{
+    font-size: 25px;
+}
+.text5{
+    font-size:25px ;
+}
+.text3{
+    display: inline-block;
+    font-size: 30px;
+    border: none;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align:top right;
+    padding: 20px;
+    background-color: whitesmoke;
+
+
+}
+
+.home{
+  margin-right: 30px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+.About{
+  margin-right: 30px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+.faculty{
+  margin-right: 30px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+.research{
+  margin-right:30px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+.study{
+  margin-right:30px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+.top{
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 550px;
+  }
+  .ug-logo{
+    width: 300px;
+    height: auto;
+  }
+
+  .first1{
+    display: inline-block;
+    
+  }
+  .one{
+    font-size: 20px;
+  }
+  .one2{
+    font-size: 20px;
+  } 
+  .one3{
+    font-size: 20px;
+  }
+  .one4{
+    font-size: 20px;
+  }
+  .one5{
+    font-size: 20px;
+  }
+  .one6{
+    font-size: 20px;
+  }
+  .one7{
+    font-size: 20px;
+  }
+  
+  .first2{
+    display: inline-block;
+    
+    margin-left: 150px;
+  }
+  .one{
+    font-size: 20px;
+  }
+  .one2{
+    font-size: 20px;
+  } 
+  .one3{
+    font-size: 20px;
+  }
+  .one4{
+    font-size: 20px;
+  }
+  .one5{
+    font-size: 20px;
+  }
+  .one6{
+    font-size: 20px;
+  }
+  .one7{
+    font-size: 20px;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .foot {
+    margin-bottom: 20px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .foot h4 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .foot ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .foot li {
+    margin-bottom: 8px;
+  }
+  
+  .foot a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .foot a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .foot {
+        width: 100%;
+        margin-top: 0%;
+    }
+  }
+  .facultymembers{
+    text-align: center;
+    color: rgb(56, 56, 143);
+    font-size: 40px;
+  }
