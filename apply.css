@@ -1,1 +1,75 @@
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align:top right;
+    padding: 20px;
+    background-color: whitesmoke;
+
+
+}
+
+.home{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .About{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .faculty{
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .research{
+    margin-right:30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .study{
+    margin-right:30px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+  .ug-logo{
+    width: 300px;
+    height: auto;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: rgb(80, 80, 248);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
